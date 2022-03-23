@@ -1,0 +1,3 @@
+roslaunch upt_arm demo.launch use_gui:=true
+rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0 _baud:=115200
+sudo chmod +777 /dev/ttyUSB0
